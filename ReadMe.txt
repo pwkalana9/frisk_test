@@ -3,7 +3,7 @@ System setup
 1) Database setup
    a) Setup postgresql, and setup user 'postgres' with password 'postgres'
    b) Run frisk_db.sql (found in the repository) to create the database and the table.
-2) cd frisk_api, node index.js to run the express based API backend.
+2) cd frisk_api, node index.js to run the express based API backend.(in the prodcution machine this is installed as frisk_backend.service)
 3) Copy the contents of the frisk_hello/build directory into the Apache web directory 
 4) Access the pages as below
   a) http://localhost <-- home page with form to submit messages
